@@ -1,0 +1,187 @@
+[INFO ] 2022-12-19 16:19:04.833 [main] ReportManager - 
+################################################################################################################################################
+Detected SHAFT Engine Version: "SHAFT Engine v6.4.20221215"
+################################################################################################################################################
+[INFO ] 2022-12-19 16:19:06.693 [main] ReportManager - Loaded OpenCV "opencv_java455".
+[INFO ] 2022-12-19 16:19:06.802 [main] Utils - [TestNG] Running:
+  /Users/baianat/Library/Caches/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml
+
+[INFO ] 2022-12-19 16:19:06.821 [main] ReportManager - 
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		"com.shaft.tools.listeners.LogsHelper.setupActivities"
+################################################################################################################################################
+[INFO ] 2022-12-19 16:19:06.835 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2022-12-19 16:19:06.984 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2022-12-19 16:19:07.362 [main] ReportManager - Initializing Important Links...
+[INFO ] 2022-12-19 16:19:07.367 [main] ReportManager - Initializing Custom Properties...
+[INFO ] 2022-12-19 16:19:07.450 [main] ReportManager - 
+################################################################################################################################################
+Starting Execution:	"1 out of 1" test cases in the current suite
+Test Method:		"api.tests.RestfullBoker_FirstReequest.createBooking"
+################################################################################################################################################
+[DEBUG] 2022-12-19 16:19:08.888 [main] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2022-12-19 16:19:08.956 [main] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2022-12-19 16:19:09.584 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2022-12-19 16:19:09.585 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2022-12-19 16:19:09.585 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2022-12-19 16:19:09.585 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2022-12-19 16:19:09.585 [main] DefaultHttpClient - Attempt 1 to execute request
+[DEBUG] 2022-12-19 16:19:09.586 [main] DefaultClientConnection - Sending request: POST /booking HTTP/1.1
+[DEBUG] 2022-12-19 16:19:09.586 [main] wire -  >> "POST /booking HTTP/1.1[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.587 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.587 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.587 [main] wire -  >> "Content-Length: 171[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.587 [main] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.587 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.587 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.587 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.587 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.587 [main] headers - >> POST /booking HTTP/1.1
+[DEBUG] 2022-12-19 16:19:09.587 [main] headers - >> Accept: */*
+[DEBUG] 2022-12-19 16:19:09.587 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2022-12-19 16:19:09.587 [main] headers - >> Content-Length: 171
+[DEBUG] 2022-12-19 16:19:09.588 [main] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2022-12-19 16:19:09.588 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2022-12-19 16:19:09.588 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+[DEBUG] 2022-12-19 16:19:09.588 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2022-12-19 16:19:09.588 [main] wire -  >> "{"firstname":"Ahmed","additionalneeds":"Breakfast","bookingdates":{"checkin":"2021-01-01","checkout":"2022-01-01"},"totalprice":500,"depositpaid":true,"lastname":"Helaly"}"
+[DEBUG] 2022-12-19 16:19:09.723 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.725 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.726 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.726 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.726 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.726 [main] wire -  << "Content-Length: 200[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.726 [main] wire -  << "Etag: W/"c8-n/wGfOIeqU5jM1lpcNcP85qRbJs"[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.726 [main] wire -  << "Date: Mon, 19 Dec 2022 14:19:09 GMT[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.726 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.726 [main] wire -  << "[\r][\n]"
+[DEBUG] 2022-12-19 16:19:09.727 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2022-12-19 16:19:09.727 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2022-12-19 16:19:09.727 [main] headers - << Server: Cowboy
+[DEBUG] 2022-12-19 16:19:09.727 [main] headers - << Connection: keep-alive
+[DEBUG] 2022-12-19 16:19:09.727 [main] headers - << X-Powered-By: Express
+[DEBUG] 2022-12-19 16:19:09.727 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2022-12-19 16:19:09.727 [main] headers - << Content-Length: 200
+[DEBUG] 2022-12-19 16:19:09.727 [main] headers - << Etag: W/"c8-n/wGfOIeqU5jM1lpcNcP85qRbJs"
+[DEBUG] 2022-12-19 16:19:09.727 [main] headers - << Date: Mon, 19 Dec 2022 14:19:09 GMT
+[DEBUG] 2022-12-19 16:19:09.727 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2022-12-19 16:19:09.732 [main] DefaultHttpClient - Connection can be kept alive indefinitely
+[DEBUG] 2022-12-19 16:19:09.737 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2022-12-19 16:19:09.737 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2022-12-19 16:19:09.762 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[DEBUG] 2022-12-19 16:19:09.788 [main] wire -  << "{"bookingid":4350,"booking":{"firstname":"Ahmed","lastname":"Helaly","totalprice":500,"depositpaid":true,"bookingdates":{"checkin":"2021-01-01","checkout":"2022-01-01"},"additionalneeds":"Breakfast"}}"
+[DEBUG] 2022-12-19 16:19:09.789 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3a4d0ca2
+[DEBUG] 2022-12-19 16:19:09.789 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2022-12-19 16:19:10.390 [main] ReportManager - Successfully created attachment "API Request - Specifications"
+[DEBUG] 2022-12-19 16:19:10.423 [main] cache - Couldn't find template in cache for "codeblock.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-19 16:19:10.424 [main] cache - TemplateLoader.findTemplateSource("codeblock_en_EG.ftl"): Not found
+[DEBUG] 2022-12-19 16:19:10.424 [main] cache - TemplateLoader.findTemplateSource("codeblock_en.ftl"): Not found
+[DEBUG] 2022-12-19 16:19:10.425 [main] cache - TemplateLoader.findTemplateSource("codeblock.ftl"): Found
+[DEBUG] 2022-12-19 16:19:10.425 [main] cache - Loading template for "codeblock.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/baianat/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/markup/codeblock.ftl"
+[DEBUG] 2022-12-19 16:19:10.529 [main] cache - Couldn't find template in cache for "codeblock.json.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-19 16:19:10.529 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en_EG.ftl"): Not found
+[DEBUG] 2022-12-19 16:19:10.529 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en.ftl"): Not found
+[DEBUG] 2022-12-19 16:19:10.529 [main] cache - TemplateLoader.findTemplateSource("codeblock.json.ftl"): Found
+[DEBUG] 2022-12-19 16:19:10.530 [main] cache - Loading template for "codeblock.json.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/baianat/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/markup/codeblock.json.ftl"
+[INFO ] 2022-12-19 16:19:10.549 [main] ReportManager - Successfully created attachment "API Request - JSON Body"
+[INFO ] 2022-12-19 16:19:10.550 [main] ReportManager - Successfully created attachment "API Response - JSON Body"
+[DEBUG] 2022-12-19 16:19:10.656 [main] CompiledPath - Evaluating path: $['bookingid']
+[INFO ] 2022-12-19 16:19:10.659 [main] ReportManager - Get response jsonvalue "bookingid".
+[DEBUG] 2022-12-19 16:19:10.676 [main] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2022-12-19 16:19:10.677 [main] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2022-12-19 16:19:11.216 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2022-12-19 16:19:11.216 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2022-12-19 16:19:11.216 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2022-12-19 16:19:11.216 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2022-12-19 16:19:11.216 [main] DefaultHttpClient - Attempt 1 to execute request
+[DEBUG] 2022-12-19 16:19:11.216 [main] DefaultClientConnection - Sending request: GET /booking/4350 HTTP/1.1
+[DEBUG] 2022-12-19 16:19:11.216 [main] wire -  >> "GET /booking/4350 HTTP/1.1[\r][\n]"
+[DEBUG] 2022-12-19 16:19:11.216 [main] wire -  >> "Content-Type: */*; charset=UTF-8[\r][\n]"
+[DEBUG] 2022-12-19 16:19:11.217 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2022-12-19 16:19:11.217 [main] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2022-12-19 16:19:11.217 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2022-12-19 16:19:11.217 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)[\r][\n]"
+[DEBUG] 2022-12-19 16:19:11.217 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2022-12-19 16:19:11.217 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2022-12-19 16:19:11.217 [main] headers - >> GET /booking/4350 HTTP/1.1
+[DEBUG] 2022-12-19 16:19:11.217 [main] headers - >> Content-Type: */*; charset=UTF-8
+[DEBUG] 2022-12-19 16:19:11.217 [main] headers - >> Accept: */*
+[DEBUG] 2022-12-19 16:19:11.217 [main] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2022-12-19 16:19:11.217 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2022-12-19 16:19:11.217 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+[DEBUG] 2022-12-19 16:19:11.217 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2022-12-19 16:19:11.357 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2022-12-19 16:19:11.357 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2022-12-19 16:19:11.357 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2022-12-19 16:19:11.358 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2022-12-19 16:19:11.358 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2022-12-19 16:19:11.358 [main] wire -  << "Content-Length: 171[\r][\n]"
+[DEBUG] 2022-12-19 16:19:11.358 [main] wire -  << "Etag: W/"ab-55YgQcU3PVXOcvBI1jJq0lOvkrs"[\r][\n]"
+[DEBUG] 2022-12-19 16:19:11.358 [main] wire -  << "Date: Mon, 19 Dec 2022 14:19:11 GMT[\r][\n]"
+[DEBUG] 2022-12-19 16:19:11.358 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2022-12-19 16:19:11.358 [main] wire -  << "[\r][\n]"
+[DEBUG] 2022-12-19 16:19:11.358 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2022-12-19 16:19:11.358 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2022-12-19 16:19:11.358 [main] headers - << Server: Cowboy
+[DEBUG] 2022-12-19 16:19:11.359 [main] headers - << Connection: keep-alive
+[DEBUG] 2022-12-19 16:19:11.359 [main] headers - << X-Powered-By: Express
+[DEBUG] 2022-12-19 16:19:11.359 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2022-12-19 16:19:11.359 [main] headers - << Content-Length: 171
+[DEBUG] 2022-12-19 16:19:11.359 [main] headers - << Etag: W/"ab-55YgQcU3PVXOcvBI1jJq0lOvkrs"
+[DEBUG] 2022-12-19 16:19:11.359 [main] headers - << Date: Mon, 19 Dec 2022 14:19:11 GMT
+[DEBUG] 2022-12-19 16:19:11.359 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2022-12-19 16:19:11.359 [main] DefaultHttpClient - Connection can be kept alive indefinitely
+[DEBUG] 2022-12-19 16:19:11.359 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2022-12-19 16:19:11.359 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2022-12-19 16:19:11.360 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[DEBUG] 2022-12-19 16:19:11.361 [main] wire -  << "{"firstname":"Ahmed","lastname":"Helaly","totalprice":500,"depositpaid":true,"bookingdates":{"checkin":"2021-01-01","checkout":"2022-01-01"},"additionalneeds":"Breakfast"}"
+[DEBUG] 2022-12-19 16:19:11.361 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@d7b20d9
+[DEBUG] 2022-12-19 16:19:11.361 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2022-12-19 16:19:11.373 [main] ReportManager - Successfully created attachment "API Request - Specifications"
+[INFO ] 2022-12-19 16:19:11.374 [main] ReportManager - Successfully created attachment "API Response - JSON Body"
+[DEBUG] 2022-12-19 16:19:11.375 [main] CompiledPath - Evaluating path: $['firstname']
+[INFO ] 2022-12-19 16:19:11.375 [main] ReportManager - Get response jsonvalue "firstname".
+[DEBUG] 2022-12-19 16:19:11.376 [main] CompiledPath - Evaluating path: $['lastname']
+[INFO ] 2022-12-19 16:19:11.376 [main] ReportManager - Get response jsonvalue "lastname".
+[DEBUG] 2022-12-19 16:19:11.377 [main] CompiledPath - Evaluating path: $['bookingdates']['checkin']
+[INFO ] 2022-12-19 16:19:11.377 [main] ReportManager - Get response jsonvalue "bookingdates.checkin".
+[DEBUG] 2022-12-19 16:19:11.377 [main] CompiledPath - Evaluating path: $['bookingdates']['checkout']
+[INFO ] 2022-12-19 16:19:11.378 [main] ReportManager - Get response jsonvalue "bookingdates.checkout".
+[DEBUG] 2022-12-19 16:19:11.378 [main] CompiledPath - Evaluating path: $['totalprice']
+[INFO ] 2022-12-19 16:19:11.378 [main] ReportManager - Get response jsonvalue "totalprice".
+[DEBUG] 2022-12-19 16:19:11.381 [main] CompiledPath - Evaluating path: $['firstname']
+[INFO ] 2022-12-19 16:19:11.381 [main] ReportManager - Get response jsonvalue "firstname".
+[DEBUG] 2022-12-19 16:19:11.385 [main] CompiledPath - Evaluating path: $['lastname']
+[INFO ] 2022-12-19 16:19:11.385 [main] ReportManager - Get response jsonvalue "lastname".
+[DEBUG] 2022-12-19 16:19:11.386 [main] CompiledPath - Evaluating path: $['bookingdates']['checkin']
+[INFO ] 2022-12-19 16:19:11.386 [main] ReportManager - Get response jsonvalue "bookingdates.checkin".
+[DEBUG] 2022-12-19 16:19:11.387 [main] CompiledPath - Evaluating path: $['bookingdates']['checkout']
+[INFO ] 2022-12-19 16:19:11.388 [main] ReportManager - Get response jsonvalue "bookingdates.checkout".
+[DEBUG] 2022-12-19 16:19:11.388 [main] CompiledPath - Evaluating path: $['totalprice']
+[INFO ] 2022-12-19 16:19:11.389 [main] ReportManager - Get response jsonvalue "totalprice".
+[INFO ] 2022-12-19 16:19:11.389 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RestfullBooker/Booking.json"".
+[INFO ] 2022-12-19 16:19:11.390 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RestfullBooker/Booking.json"".
+[INFO ] 2022-12-19 16:19:11.390 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RestfullBooker/Booking.json"".
+[INFO ] 2022-12-19 16:19:11.390 [main] ReportManager - Comparing the provided API response with the file at this path "/Users/baianat/IdeaProjects/SHAFT_Engien_Pra/src/test/resources/testDataFiles/RestfullBooker/Booking.json", comparison type "EQUALS"
+[INFO ] 2022-12-19 16:19:11.391 [main] ReportManager - Compare json "/Users/baianat/IdeaProjects/SHAFT_Engien_Pra/src/test/resources/testDataFiles/RestfullBooker/Booking.json".
+[INFO ] 2022-12-19 16:19:11.392 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "/Users/baianat/IdeaProjects/SHAFT_Engien_Pra/src/test/resources/testDataFiles/RestfullBooker/Booking.json"".
+[INFO ] 2022-12-19 16:19:11.392 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "/Users/baianat/IdeaProjects/SHAFT_Engien_Pra/src/test/resources/testDataFiles/RestfullBooker/Booking.json"".
+[INFO ] 2022-12-19 16:19:11.392 [main] ReportManager - File Action "ReadFile" successfully performed. With the following test data "File Path: "/Users/baianat/IdeaProjects/SHAFT_Engien_Pra/src/test/resources/testDataFiles/RestfullBooker/Booking.json"".
+[INFO ] 2022-12-19 16:19:11.394 [main] ReportManager - Successfully created attachment "Validation Test Data - Expected JSON Value"
+[INFO ] 2022-12-19 16:19:11.395 [main] ReportManager - Successfully created attachment "Validation Test Data - Actual JSON Value"
+[INFO ] 2022-12-19 16:19:11.397 [main] ReportManager - Successfully created attachment "SHAFT Engine Logs - Current Method log: createBooking"
+[INFO ] 2022-12-19 16:19:11.465 [main] ReportManager - 
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		"com.shaft.tools.listeners.LogsHelper.teardownActivities"
+################################################################################################################################################
+[INFO ] 2022-12-19 16:19:11.491 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2022-12-19 16:19:11.492 [main] ReportManager - Successfully created attachment "SHAFT Engine Logs - Execution log"
+[INFO ] 2022-12-19 16:19:11.492 [main] ReportManager - 
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: "SHAFT Engine v6.4.20221215"
+SHAFT Engine is licensed under the MIT License: [https://github.com/ShaftHQ/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################
+[INFO ] 2022-12-19 16:19:11.492 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2022-12-19 16:19:11.493 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

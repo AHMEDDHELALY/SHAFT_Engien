@@ -1,0 +1,43 @@
+
+################################################################################################################################################
+Starting Execution:	"1 out of 1" test cases in the current suite
+Test Method:		"api.tests.RestfullBoker_FirstReequest.createBooking"
+################################################################################################################################################
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @19-12-2022 16:19:09.0762 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @19-12-2022 16:19:09.0768 PM
+[ReportManager] Perform request "POST | Target Status Code: 200 | Service URL: https://restful-booker.herokuapp.com/booking | Content Type: application/json | Response Time: 1154ms". @19-12-2022 16:19:10.0389 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @19-12-2022 16:19:10.0390 PM
+[ReportManager] Successfully created attachment "API Request - JSON Body" @19-12-2022 16:19:10.0549 PM
+[ReportManager] Successfully created attachment "API Response - JSON Body" @19-12-2022 16:19:10.0550 PM
+[ReportManager] Get response jsonvalue "bookingid". @19-12-2022 16:19:10.0659 PM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @19-12-2022 16:19:11.0360 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @19-12-2022 16:19:11.0361 PM
+[ReportManager] Perform request "GET | Target Status Code: 200 | Service URL: https://restful-booker.herokuapp.com/booking/4350 | Content Type: */* | Response Time: 696ms". @19-12-2022 16:19:11.0373 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @19-12-2022 16:19:11.0373 PM
+[ReportManager] Successfully created attachment "API Response - JSON Body" @19-12-2022 16:19:11.0374 PM
+[ReportManager] Get response jsonvalue "firstname". @19-12-2022 16:19:11.0375 PM
+[ReportManager] Get response jsonvalue "lastname". @19-12-2022 16:19:11.0376 PM
+[ReportManager] Get response jsonvalue "bookingdates.checkin". @19-12-2022 16:19:11.0377 PM
+[ReportManager] Get response jsonvalue "bookingdates.checkout". @19-12-2022 16:19:11.0378 PM
+[ReportManager] Get response jsonvalue "totalprice". @19-12-2022 16:19:11.0378 PM
+[ReportManager] Get response jsonvalue "firstname". @19-12-2022 16:19:11.0381 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "firstname" is equal to "Ahmed". @19-12-2022 16:19:11.0384 PM
+[ReportManager] Get response jsonvalue "lastname". @19-12-2022 16:19:11.0385 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "lastname" is equal to "Helaly". @19-12-2022 16:19:11.0385 PM
+[ReportManager] Get response jsonvalue "bookingdates.checkin". @19-12-2022 16:19:11.0386 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "bookingdates.checkin" is equal to "2021-01-01". @19-12-2022 16:19:11.0387 PM
+[ReportManager] Get response jsonvalue "bookingdates.checkout". @19-12-2022 16:19:11.0387 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "bookingdates.checkout" is equal to "2022-01-01". @19-12-2022 16:19:11.0388 PM
+[ReportManager] Get response jsonvalue "totalprice". @19-12-2022 16:19:11.0389 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "totalprice" is equal to "500". @19-12-2022 16:19:11.0389 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RestfullBooker/Booking.json"". @19-12-2022 16:19:11.0389 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RestfullBooker/Booking.json"". @19-12-2022 16:19:11.0390 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RestfullBooker/Booking.json"". @19-12-2022 16:19:11.0390 PM
+[ReportManager] Comparing the provided API response with the file at this path "/Users/baianat/IdeaProjects/SHAFT_Engien_Pra/src/test/resources/testDataFiles/RestfullBooker/Booking.json", comparison type "EQUALS" @19-12-2022 16:19:11.0390 PM
+[ReportManager] Compare json "/Users/baianat/IdeaProjects/SHAFT_Engien_Pra/src/test/resources/testDataFiles/RestfullBooker/Booking.json". @19-12-2022 16:19:11.0391 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "/Users/baianat/IdeaProjects/SHAFT_Engien_Pra/src/test/resources/testDataFiles/RestfullBooker/Booking.json"". @19-12-2022 16:19:11.0392 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "/Users/baianat/IdeaProjects/SHAFT_Engien_Pra/src/test/resources/testDataFiles/RestfullBooker/Booking.json"". @19-12-2022 16:19:11.0392 PM
+[ReportManager] File Action "ReadFile" successfully performed. With the following test data "File Path: "/Users/baianat/IdeaProjects/SHAFT_Engien_Pra/src/test/resources/testDataFiles/RestfullBooker/Booking.json"". @19-12-2022 16:19:11.0392 PM
+[ReportManager] Assertion Passed: The API response is equal to the contents of this file "src/test/resources/testDataFiles/RestfullBooker/Booking.json". @19-12-2022 16:19:11.0394 PM
+[ReportManager] Successfully created attachment "Validation Test Data - Expected JSON Value" @19-12-2022 16:19:11.0394 PM
+[ReportManager] Successfully created attachment "Validation Test Data - Actual JSON Value" @19-12-2022 16:19:11.0395 P
